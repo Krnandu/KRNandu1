@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Gifts Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#Online Gifts!">Online Gifts!</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="gifts" class="gift-gallery">
+        <h1>Our Gift Collection</h1>
+        <div class="gallery">
+            <div class="gift-item">
+                <img src="https://i.pinimg.com/736x/bd/2d/c9/bd2dc9e13d934285c9c719bb8a473757.jpg" alt="Gift 1">
+                <p>Gift 1</p>
+            </div>
+            <div class="gift-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRouO3z0uG8fzcksU63tb9O9Fm3RRdLNxrJiNb0D572zjj6OeEqTASNdwFvV90B0CpUvCY&usqp=CAU" alt="Gift 2">
+                <p>Gift 2</p>
+            </div>
+            <div class="gift-item">
+                <img src="https://cdnjs.angroos.com/wp-content/uploads/2023/11/IMG_4296-2048x2048.jpg" alt="Gift 3">
+                <p>Gift 3</p>
+          </div>
+          <div class="gallery">
+            <div class="gift-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMe8LwXSzTFAFw197pqK9V0SAhr98d100qiw&s" alt="Gift 4">
+                <p>Gift 4</p>
+         </div>
+         <div class="gallery">
+            <div class="gift-item">
+                <img src="https://www.sendbestgift.com/assets/images/diwali/same-day-diwali-gifts.webp" alt="Gift 5">
+                <p>Gift 5</p>
+         </div>
+
+
+
+            <!-- Add more gift items as needed -->
+        </div>
+    </section>
+
+    <section id="contact" class="contact-form">
+        <h1>Contact Us</h1>
+        <form id="contactForm" action="#" method="POST">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" required placeholder="Enter your name">
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required placeholder="Enter your email">
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required placeholder="Enter your message"></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <section id="todo-list" class="todo">
+        <h1>Dynamic To-Do List</h1>
+        <input type="text" id="new-task" placeholder="Enter a task">
+        <button id="add-task">Add Task</button>
+        <ul id="task-list"></ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Online Gifts Store</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
